@@ -1,6 +1,7 @@
 import React from 'react';
 // import axios, { AxiosResponse } from 'axios';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 // import Form from '../components/Form.tsx';
 // import SaveButton from '../components/SaveButton.tsx';
 
@@ -20,10 +21,18 @@ const Home: React.FC = () => {
       <h2>Home</h2>
       <section>
 
+            <Link to="adventure/">
         <Button>Embark on a New Adventure</Button>
+        </Link>
+        <Link to="resume/">
         <Button>Resume Unfinished Story</Button>
+        </Link>
+        <Link to="memories/">
         <Button>View Past Tales</Button>
+        </Link>
+        <Link to="collection/">
         <Button>View Favorite Memories</Button>
+        </Link>
 
 
       </section>
