@@ -21,6 +21,8 @@ const Resume: React.FC = () => {
       <section>
 
         <h2>Placeholder for unfinished adventures</h2>
+        <Button>View</Button>
+        <Button>Delete</Button>
 
 
       </section>
